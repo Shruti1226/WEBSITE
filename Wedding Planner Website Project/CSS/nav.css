@@ -1,0 +1,65 @@
+body
+{
+    
+    font-family: 'Cormorant Garamond', serif;
+    color: #3F3836;
+    background-color: #dde0e0;
+}
+nav{
+    padding: 2% 2%;
+}
+.web_name
+{
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+}
+.web_name a
+{
+    text-decoration: none;
+    color: #3F3836;
+}
+.col
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.menu ul
+{
+    display: flex;
+}
+.menu ul li
+{
+    padding-left: 50px;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    font-family:'helvetica';
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: #3F3836;
+}
+.menu-icons ul
+{
+    display: flex;
+}
+.menu-icons ul li
+{
+
+    padding-left: 20px;
+    list-style: none;
+    margin-right:1% ;
+}
+.menu-icons ul li a
+{  
+    color: #3F3836;
+}
+a:hover
+{
+    color: rgb(223, 0, 0);  
+ transform: 0.2s;
+}
