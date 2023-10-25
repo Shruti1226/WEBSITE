@@ -1,0 +1,150 @@
+*{
+    font-family: 'Poppins';
+}
+:root
+{
+    --yellow: #f5af00;
+}
+.nav1
+{
+   
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+
+}
+.navbar li
+{
+    margin-right: 30px;
+}
+.nav-item a
+{
+   text-decoration: none;
+   color: white !important;
+   font-size: 12px;
+   font-weight: 400;
+}
+.nav-link:hover
+{
+   color: var(--yellow) !important;
+}
+.hero-image
+{
+    /* background-image: url('	https://landing.zytheme.com/cobuild/assets/images/hero/1.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://landing.zytheme.com/cobuild/assets/images/hero/1.jpg');
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: brightness(.6);
+    opacity: .9; */
+
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)70%, rgba(0, 0, 0, 0.6)70%) */
+}
+.hero-headline
+{
+   font-size: 70px;
+   color: white;
+   position: absolute;
+   font-weight: 400;
+   top: 36%;
+   left: 20%;
+}
+.hero-bio
+{
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+   padding-top: 24%;
+}
+.hero-btn
+{
+    margin-top: 5%;
+    background-color: var(--yellow);
+    border-radius: 70px;
+    width: 170px;
+    height: 50px;
+    border: #f5af00;
+}
+.hero-btn a
+{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sec-1
+{
+    margin: 10% 0%;
+}
+.sec-1 h2
+{
+    color: #222222;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 27px;
+}
+.sec-1 p
+{
+    margin-bottom: 20px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sec-1 img
+{
+    width: 50px;
+    height: 50px;
+}
+.content h3
+{
+    margin-top: 14%;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+.content p
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #999999;
+}
+.Sec-2
+{
+    padding: 100px 0px;
+}
+.Sec-2 img
+{
+    width: 50px;
+    height: 54.4px;
+}
+.Sec-3
+{
+    background-color: var(--yellow);
+    padding: 4%;
+}
+.Sec-3 h3
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.sec4
+{
+    background-color: #f8f8f8;
+    padding: 100px 0px;
+}
+.sec4 img
+{
+    height: 291.89px;
+    width: 360px;
+}
